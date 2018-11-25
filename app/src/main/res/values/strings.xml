@@ -1,0 +1,199 @@
+<resources>
+    <!-- String related to the app-->
+    <string name="app_name">Library Management System</string>
+    <string name="company_name">Colombo Public Library</string>
+    <string name="title_activity_login_screen">Sign in</string>
+    <string name="title_activity_staff_screen">Staff Page</string>
+    <string name="title_activity_book_catalog">Book Catalog</string>
+
+    <!-- Strings related to user login fragment -->
+    <string name="login_fragment_title">SIGN IN</string>
+    <string name="prompt_user_or_id">Member ID/Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="error_invalid_id">This member ID/username is invalid</string>
+    <string name="error_member_not_found">The member could not be found</string>
+    <string name="error_invalid_password">This password should be between 6–14 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="link_new_member"><u>Not a member yet? Sign up here</u></string>
+    <string name="link_forget_password">Forgot your password</string>
+    <string name="btn_toggle_password">Show/Hide password</string>
+
+    <!-- String related to member registration fragment -->
+    <string name="registration_fragment_title">SIGN UP</string>
+    <string name="prompt_member_id">Member ID</string>
+    <string name="prompt_user">Username</string>
+    <string name="prompt_confirm">Confirm Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="link_sing_in"><u>Have an account? Sign in here</u></string>
+
+    <!-- String related to member page -->
+    <string name="title_registered_member">Registered Member</string>
+    <string name="title_member_profile_name">Member Profile Name</string>
+    <string name="title_borrowed_books">Borrowed books</string>
+    <string name="title_borrowed_books_list">&#8226; None</string>
+    <string name="title_return_date">Return date: dd/mm/yyyy</string>
+    <string name="title_pending_fines">Pending fines: LKR XXXX</string>
+
+    <!-- Member page option titles and description -->
+    <string name="title_book_catalog">Book Catalog</string>
+    <string name="description_book_catalog">Get book suggestions, Search books by their title, author, category or their genres, …</string>
+    <string name="title_books_borrowed">Books Borrowed</string>
+    <string name="description_books_borrowed">See information about your borrowed books, their return dates, fines, …</string>
+    <string name="title_your_details">Your Details</string>
+    <string name="description_your_details">See all information about your library membership, expiration date, …</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="description_preferences">Modify this app to your preferences, control notification alerts, logout your account …</string>
+
+    <!-- String related to book catalog page  -->
+    <string name="card_book_category">Category</string>
+    <string name="card_book_genre">Genre</string>
+    <string name="card_book_title">Title</string>
+    <string name="card_book_author">Author</string>
+    <string name="tooltip_book_category">List books that are in a specific category</string>
+    <string name="tooltip_book_genre">List books by their genres</string>
+    <string name="tooltip_book_title">Search books by their title</string>
+    <string name="tooltip_book_author">Search for all the books written by the specified author</string>
+    <string name="title_list_by">List by</string>
+    <string name="title_search_for">Search for</string>
+    <string name="title_book_suggestions">Suggestions for you…</string>
+
+    <!-- Sting related to staff page -->
+    <string name="card_member_list">Member List</string>
+    <string name="card_book_catalog">Book Catalog</string>
+    <string name="card_issue_books">Issue Books</string>
+    <string name="card_library_reports">Library Reports</string>
+    <string name="card_borrowed_books">Borrowed Books</string>
+    <string name="card_overdue_books">Overdue Books</string>
+    <string name="tooltip_member_list">A comprehensive list of all the library members, their details, etc …</string>
+    <string name="tooltip_book_catalog">A detailed catalog of books, sorted by category, genre, author, etc …</string>
+    <string name="tooltip_issue_books">Issue books to the library\'s members</string>
+    <string name="tooltip_library_reports">Generate various reports on all the different functions undertaken at the library</string>
+    <string name="tooltip_borrowed_books">A list of all the books that have been borrowed, along with the details of the embers who borrowed them</string>
+    <string name="tooltip_overdue_books">A list of all the overdue books, and the members who are liable to pay the late fee</string>
+
+
+    <!-- String related to content description -->
+    <string name="img_add_user_avatar">Add User Avatar</string>
+    <string name="img_user_login_top_frame">User Login Top Frame</string>
+    <string name="img_user_avatar">User Avatar</string>
+    <string name="img_card_member_list">Member List</string>
+    <string name="img_card_book_catalog">Book Catalog</string>
+    <string name="img_card_issue_books">Issue Books</string>
+    <string name="img_card_library_reports">Library Reports</string>
+    <string name="img_card_borrowed_books">Borrowed Books</string>
+    <string name="img_card_overdue_books">Overdue Books</string>
+
+    <!-- Array related to the SQLite database -->
+    <string-array name="book_genre_list">
+        <item>Action</item>
+        <item>Action Adventure</item>
+        <item>Adventure</item>
+        <item>Alternate History</item>
+        <item>Apocalyptic</item>
+        <item>Biographical Fiction</item>
+        <item>Black Comedy</item>
+        <item>Chick Lit</item>
+        <item>Christian Fiction</item>
+        <item>Classics</item>
+        <item>Comedy</item>
+        <item>Coming of Age</item>
+        <item>Commercial Fiction</item>
+        <item>Contemporary Realistic Fiction</item>
+        <item>Crime Fiction</item>
+        <item>Dark Fantasy</item>
+        <item>Detective Fiction</item>
+        <item>Disaster Thriller</item>
+        <item>Drama Fiction</item>
+        <item>Dystopian Fiction</item>
+        <item>Epic Fiction</item>
+        <item>Erotic Fiction</item>
+        <item>Espionage</item>
+        <item>Ethnic Fiction</item>
+        <item>Faction Fiction</item>
+        <item>Fable</item>
+        <item>Fairy Tale</item>
+        <item>Family Saga</item>
+        <item>Fan Fiction</item>
+        <item>Fantasy</item>
+        <item>Flash Fiction</item>
+        <item>Folktale</item>
+        <item>Gangster Fiction</item>
+        <item>General Fiction</item>
+        <item>Ghost Story</item>
+        <item>Glitz Fiction</item>
+        <item>Gothic Fiction</item>
+        <item>Graphic Novel</item>
+        <item>Hardboiled Crime</item>
+        <item>Historical Fiction</item>
+        <item>Horror</item>
+        <item>Inspirational Fiction</item>
+        <item>Legal Fiction</item>
+        <item>Literary Fiction</item>
+        <item>Magical Realism</item>
+        <item>Mainstream Fiction</item>
+        <item>Military Fiction</item>
+        <item>Modern Fiction</item>
+        <item>Monster Fiction</item>
+        <item>Multicultural Fiction</item>
+        <item>Murder Mystery</item>
+        <item>Mystery</item>
+        <item>Mythic Fiction</item>
+        <item>Narrative Fiction</item>
+        <item>New Adult</item>
+        <item>Noir</item>
+        <item>Occult Fiction</item>
+        <item>Paranoid Fiction</item>
+        <item>Paranormal Fiction</item>
+        <item>Parody Fiction</item>
+        <item>Period Piece Fiction</item>
+        <item>Poetry Fiction</item>
+        <item>Police Procedural Fiction</item>
+        <item>Political Fiction</item>
+        <item>Post-Apocalyptic</item>
+        <item>Prose Fiction</item>
+        <item>Psychological Fiction</item>
+        <item>Psychological Thriller</item>
+        <item>Pulp Fiction</item>
+        <item>Realistic Fiction</item>
+        <item>Religious Fiction</item>
+        <item>Romance</item>
+        <item>Romantic Comedy</item>
+        <item>Satirical Fiction</item>
+        <item>Science Fiction</item>
+        <item>Short Story</item>
+        <item>Slasher Fiction</item>
+        <item>Slice of Life Fiction</item>
+        <item>Southern Fiction</item>
+        <item>Southern Gothic</item>
+        <item>Speculative Fiction</item>
+        <item>Sports Fiction</item>
+        <item>Spy Fiction</item>
+        <item>Steampunk Fiction</item>
+        <item>Supernatural Fiction</item>
+        <item>Survival Fiction</item>
+        <item>Suspense</item>
+        <item>Techno-Thriller</item>
+        <item>Thriller</item>
+        <item>Tragedy</item>
+        <item>Urban Fantasy</item>
+        <item>Upmarket Fiction</item>
+        <item>Urban Fiction</item>
+        <item>Utopian Fiction</item>
+        <item>Vampire Fiction</item>
+        <item>Werewolf Fiction</item>
+        <item>Western</item>
+        <item>Whodunit Fiction</item>
+        <item>Women/'s Fiction</item>
+    </string-array>
+    <string-array name="book_category_list">
+        <item>Adult Fiction</item>
+        <item>Children</item>
+        <item>Fiction</item>
+        <item>Kids</item>
+        <item>Non-Fiction</item>
+        <item>New Adult</item>
+        <item>Young Adult</item>
+    </string-array>
+</resources>
